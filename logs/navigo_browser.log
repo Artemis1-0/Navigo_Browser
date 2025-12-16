@@ -14,3 +14,6 @@
 2025-12-16 17:41:16,292 - root - INFO - Avvio Navigo Browser
 2025-12-16 17:41:45,812 - root - ERROR - Error during window close: 'PerformanceMonitor' object has no attribute 'stop_monitoring'
 2025-12-16 17:41:45,899 - root - INFO - Chiusura Navigo Browser. Exit Code: 0
+2025-12-16 18:09:19,649 - root - INFO - Avvio Navigo Browser
+2025-12-16 18:09:29,286 - root - ERROR - Error during window close: 'PerformanceMonitor' object has no attribute 'stop_monitoring'
+2025-12-16 18:09:29,350 - root - INFO - Chiusura Navigo Browser. Exit Code: 0
