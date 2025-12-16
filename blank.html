@@ -182,8 +182,8 @@
 
             async function loadData() {
             const [enginesRes, bgRes] = await Promise.all([
-                fetch('./searchEngines.json'),
-                fetch('./backgrounds.json')
+                fetch('/data/searchEngines.json'),
+                fetch('/data/backgrounds.json')
             ]);
 
             searchEngines = await enginesRes.json();
