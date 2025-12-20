@@ -29,8 +29,8 @@ h1 {
     font-size: 3em;
     font-family: "Poppins", serif;
     margin-bottom: 20px;
-    color: rgba(255, 255, 255, 0.9); /* Colore del testo bianco con un po' di trasparenza */
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7); /* Ombra per migliorare la leggibilità */
+    color: rgba(255, 255, 255, 0.9); /* White colour with some transparency */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7); /* Shadow for readability */
 }
 .search-box {
     padding: 12px;
@@ -39,27 +39,27 @@ h1 {
     width: 500px;
     border-radius: 15px;
     border: none;
-    background-color: rgba(51, 51, 51, 0.7); /* Trasparente */
+    background-color: rgba(51, 51, 51, 0.7); /* Transparent */
     color: #FFFFFF;
     margin-bottom: 2px;
-    backdrop-filter: blur(5px); /* Effetto blur */
+    backdrop-filter: blur(5px); /* Blur effect */
     transition: box-shadow 0.3s ease;
 }
         
 .search-box:focus {
     outline: none;
-    box-shadow: 0 0 20px #000000d7; /* Colore del box-shadow al focus */
+    box-shadow: 0 0 20px #000000d7; /* Box shadow colour on focus*/
 }
 
 .search-container {
-    display: flex; /* Usa flexbox per allineare gli elementi */
-    align-items: center; /* Allinea verticalmente al centro */
+    display: flex; /* Use the flexbox to align items */
+    align-items: center; /* Align vertically to the centre */
 }
 
 
 .engine-icon {
-    width: 100%; /* L'icona riempie il contenitore */
-    height: auto; /* Mantiene le proporzioni */
+    width: 100%; /* Make the icon fill the container */
+    height: auto; /* Mantains the aspect ratio */
 }
 .engine-options {
     display: none;
@@ -69,7 +69,7 @@ h1 {
     background-color: #33333390;
     border-radius: 10px;
     padding: 3px;
-    backdrop-filter: blur(5px); /* Effetto blur */
+    backdrop-filter: blur(5px); /* Blur effect */
 }
 .engine-option {
     width: 40px;
@@ -150,15 +150,15 @@ h1 {
 }
 
 .engine-icon-container {
-    display: inline-flex; /* Usa flexbox per centrare l'icona */
-    justify-content: center; /* Centra orizzontalmente l'icona */
-    align-items: center; /* Centra verticalmente l'icona */
-    width: 40px; /* Larghezza del quadrato */
-    height: 40px; /* Altezza del quadrato */
-    border-radius: 15px; /* Raggio del bordo per angoli arrotondati */
-    background-color: rgba(51, 51, 51, 0.7); /* Colore di sfondo trasparente */
-    backdrop-filter: blur(2px); /* Effetto blur */
-    padding: 5px; /* Padding interno */
-    cursor: pointer; /* Cambia il cursore quando si passa sopra */
-    margin-left: 7px; /* Spaziatura a sinistra */
+    display: inline-flex; /* Use flexbox to center the icon */
+    justify-content: center; /* Center the icon horizontally */
+    align-items: center; /* Centers the icon vertically */
+    width: 40px; /* The width of the square */
+    height: 40px; /* The hight of the square */
+    border-radius: 15px; /* Border radius (for rounded corners)*/
+    background-color: rgba(51, 51, 51, 0.7); /* Transparent background colours */
+    backdrop-filter: blur(2px); /* A blur effect */
+    padding: 5px; /* Inner padding */
+    cursor: pointer; /* Changes the cursor when hovered */
+    margin-left: 7px; /* Left spacing */
 }
